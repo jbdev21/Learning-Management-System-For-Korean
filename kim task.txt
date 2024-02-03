@@ -1,0 +1,9 @@
+banner / popup for Admin
+Recording (save, download mp3)
+when st. write essay ; auto save
+scoring of essay
+upgrade student's grade on Feb 28 every year
+
+Notification for Admin (every work)
+teacher (essay update)
+student (teacher feedback)

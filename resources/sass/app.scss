@@ -1,0 +1,384 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+// Variables
+// @import 'variables';
+@import "~font-awesome/scss/font-awesome";
+
+// // Bootstrap
+@import "~bootstrap-sass";
+
+@import './bootstrap-4-utilities.scss';
+
+*{
+  font-family: 'Do Hyeon', sans-serif;
+  font-weight: normal;
+}
+
+.rank-box{
+    position: absolute; 
+    top:110px; 
+    left:140px;
+
+
+    .rank-1{
+      font-size:2.5em; 
+      color:white;
+    }
+    .rank-2{
+      font-size:2.5em; 
+      color:white; 
+      margin-top:50px;
+    }
+
+    // @media (max-width: 480px) {
+    //   &{
+    //     top:90px;
+    //     font-size:0.5em; 
+    //     left:100px;
+  
+    //     .rank-2{
+    //       margin-top:40px;
+    //     }
+    //   }
+    // }
+
+    @media (min-width: 320px) and (max-width: 480px) {
+  
+      &{
+        top:70px;
+        font-size:0.5em; 
+        left:100px;
+  
+        .rank-2{
+          margin-top:30px;
+        }
+      }
+      
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+  
+      &{
+        top:90px;
+        font-size:.8em; 
+        left:120px;
+  
+        .rank-2{
+          margin-top:40px;
+        }
+      }
+      
+    }
+    
+
+ 
+    @media (min-width: 768px) and (max-width: 1024px) {
+      &{
+        top:90px;
+        font-size:.8em; 
+        left:120px;
+  
+        .rank-2{
+          margin-top:40px;
+        }
+      }
+      
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+      &{
+        top:95px;
+        font-size:0.7em; 
+        left:120px;
+  
+        .rank-2{
+          margin-top:40px;
+        }
+      }
+      
+    }
+    
+
+
+      
+}
+
+
+
+
+
+.project-tab {
+  padding: 10%;
+  margin-top: -8%;
+}
+.project-tab #tabs{
+    background: #007b5e;
+    color: #eee;
+}
+.project-tab #tabs h6.section-title{
+    color: #eee;
+}
+.project-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    
+  color: #0062cc;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 0px solid !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+.project-tab .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #0062cc;
+    font-size: 16px;
+    font-weight: 600;
+}
+.project-tab .nav-link:hover {
+    border: none;
+}
+.project-tab thead{
+    background: #f3f3f3;
+    color: #333;
+}
+.project-tab a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.tales {
+  width: 100%;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 650px !important;
+}
+
+// .navbar-laravel {
+//   background-color: #fff;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+// }
+
+.login-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    .title{
+        margin-bottom: 20px;
+    }
+
+    .login-box{
+        width:500px;
+        padding:45px;
+
+        p{
+            padding:5px;
+        }
+    }
+}
+
+@media print {
+    body, h1, h2, h3, ol, ul, div {       border: 0;       padding: 0px;   position: static;     overflow: visible; }
+    h1{
+        font-size:16px !important;
+    }
+
+    svg{
+      width:100% important;
+    }
+
+    .page-item div{
+        page-break-inside: avoid;
+    }
+    
+   *{
+       font-size:12px !important;
+   }
+
+}
+
+/* Rating Star Widgets Style */
+.rating-stars ul {
+  list-style-type:none;
+  padding:0;
+  
+  -moz-user-select:none;
+  -webkit-user-select:none;
+}
+.rating-stars ul > li.star {
+  display:inline-block;
+  
+}
+
+/* Idle State of the stars */
+.rating-stars ul > li.star > i.fa {
+  font-size:1.5em; /* Change the size of the stars */
+  color:#ccc; /* Color on idle state */
+}
+
+/* Hover state of the stars */
+.rating-stars ul > li.star.hover > i.fa {
+  color:#FFCC36;
+}
+
+/* Selected state of the stars */
+.rating-stars ul > li.star.selected > i.fa {
+  color:#FF912C;
+}
+
+
+.website-navbar{
+
+  .nav {
+    li{
+      a{
+        font-size:16px;
+
+        &:hover, &:focus, &:active, &:link{
+          background-color: transparent;
+        }
+      }
+    }
+  }
+  .navbar-nav{
+    margin-top:15px;
+  }
+
+  .navbar-brand{
+
+    img{
+      width: 50px;
+      height: 50px;
+    }
+
+    font-size:14px;
+    margin-right:20px;
+  }
+  
+}
+
+.carousel{
+  .carousel-inner{
+    .item{
+      background-color:#2bb7ec;
+      padding-top:20%;
+    }
+  }
+}
+
+
+
+.gap-bottom{
+  margin-bottom:30px;
+}
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+
+
+.gw-program-cards{
+  position: relative;
+
+  a{
+    position: absolute;
+    bottom:50px;
+    right:25px;
+
+    img{
+      width:120px;
+    }
+  }
+}
+
+.flex{
+  display: flex;
+
+  .col{
+      flex:1;
+      border:1px solid rgb(36, 36, 36); 
+      margin: 10px;
+      padding:15px;
+      font-size:16px;
+
+      .box-header{
+        border-bottom:2px solid rgb(36, 36, 36);
+
+        a{
+          color:rgb(36, 36, 36);
+        }
+      }
+
+  }
+}
+
+.bg-gray{
+    background-color: #787777;
+    color:#ccc;
+
+     a{
+       color:#ccc;
+     }
+     
+}
+
+footer{
+  font-size:16px;
+}
+
+.link-list{
+    padding:20px 0px 20px 0px;
+    a{
+      font-size:16px;
+      margin-right:20px;
+    }
+}
+
+
+
+.student-rank-list{
+  background-color:#fff;
+  display: flex;
+  margin-bottom: 15px;
+  box-shadow: #fff;
+  /* border-top:2px solid #2bb7ec; */
+  -webkit-box-shadow: 4px 3px 5px -1px rgba(240,240,240,1);
+  -moz-box-shadow: 4px 3px 5px -1px rgba(240,240,240,1);
+  box-shadow: 4px 3px 5px -1px rgba(240,240,240,1);
+
+  .date-div{
+    width: 150px;
+    background-color:#2bb7ec;
+    text-align: center;
+    color:#fff;
+    padding-top: 2%;
+  }
+
+  .details{
+    padding:10px 20px;
+
+    img{
+      width: 30px;
+    }
+  }
+
+  .date-div {
+    .month{
+      margin-top:10px;
+      font-size:4rem;
+    }
+    .year{
+      font-size:2rem;
+    }
+  }
+}
+
+
+

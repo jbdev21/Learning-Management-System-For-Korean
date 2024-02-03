@@ -1,0 +1,26 @@
+<?php
+
+return [
+    "Nice Work ! However ! Try to imagine more about the story!^^ (H.W)",
+    "Nice Work ! However ! For this ‘Spread Thinking’ activities,  you should not summarize the detail, but just open all of the detail as much as you can remember and understand after reading the story. Try to edit more detail of the story you read and resubmit!.(H.W)",
+    "Nice Work ! However ! Edit and Revise the spell and sentence, checking out the feedback written by red color above. Then, Re-submit it!(H.W)",
+    "Nice Work ! However ! Edit more to the 'Main idea' of the story. Think about the answer for the question, ‘What is this story mostly about?’",
+    "Nice Work~! Keep this in mind! The ‘Main idea’ should be enough to deliver the summary of the whole story. Then, another person can understand even if he or she does not know about the story.",
+    "Nice Work ! Edit and revise 'the development of the story' and 'main idea of the story' ! Teacher would say there should be more details you can think and take. If it is not easy to understand the story easily at one time of reading, try to read a couple of times more.", 
+    "Good Job~!",
+    "Good job~! However, organize the detail into 2 areas ; Topic & Supporting idea. This will be helpful for readers to undersrand in a logical way and easy for you to make a paragraph when you write your own essay.",
+    "Nice Graphic Organizer ! However, Keep this in mind! You should shortly show your idea with ‘Key Word’ or ‘Key Sentence’ in your graphic organizer. You don’t need to write too much detail.",
+    "Keep this in mind! Graphic Organizer should be able to show how important things of topic, text, other ideas are related for the whole story, using words and images",
+    "Keep this in mind! You should be able to choose the right concept and it should be fit with what you understood about the whole story after reading. If you try to take the concept only you like to use easily and try to make it fit with the story by force, it will be wrong choice.",   
+    "Keep this in mind! ",
+    "Nice Work ! However ! I wonder what more happenings have been at the beginning of the story. Try to edit more detail.(H.W)",
+    "Nice Work ! However ! I wonder what more happenings have been at the middle of the story. Try to edit more detail.(H.W)",
+    "Nice Work ! However ! I wonder what more happenings have been at the end of the story. Try to edit more detail.(H.W)",
+    "Nice Work ! I wonder if the story shows like what you have imagined. It would be interesting, while reading the story, if you try to find out the answers for your questions you have before you start reading.(H.W)",
+    "Nice drafting! Let's go to see what it's going on next !",
+    "Great Work ! Teacher is happy to see your skill is being improved!",
+    "Nice drafting! However ! Edit and Revise the spell and sentence, checking out the feedback written by red color above. Then, Re-submit it!(H.W) ",
+    "Try to mark of indent as () at the beginning of the paragraph. Readers can understand it means a new paragraph begins. Edit and resubmit it !(H.W)",
+    "maybe try to mark froggy like 'froggy' by using ' ' (quotation) or you don't need to make any change for the word, froggy. However, except the expression, froggy, edit and revise other mistakes. AND re-submit it~!",
+    "Nice Work~! However, it is a bit difficult to understand how the story is going on in logical way. Edit and Revise your graphic organizer. Then, resubmit it !(H.W) ",
+];

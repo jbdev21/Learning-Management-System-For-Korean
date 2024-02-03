@@ -1,0 +1,47 @@
+#puzzle-container {border: 1px solid black;	/*padding: 20px;*/ float: left; margin-right:10px;}
+#puzzle-container div {width: 100%; margin: 0 auto;}
+
+/* style for each square in the puzzle */
+#puzzle-container .puzzleSquare {height: 3.2em; width: 3.2em; text-transform: uppercase; background-color: white; border: 0; font: 1.3em sans-serif;}
+#puzzle-container button::-moz-focus-inner {border: 0;}
+
+/* indicates when a square has been selected */
+#puzzle-container .selected {background-color: orange;}
+
+/* indicates that the square is part of a word that has been found */
+#puzzle-container .found {background-color: blue; color: white;}
+#puzzle-container .solved {background-color: purple; color: white;}
+
+/* indicates that all words have been found */
+#puzzle-container .complete {background-color: #fff;}
+
+/*** Styles for the word list*/
+#puzzle-words {padding-top: 20px; -moz-column-count: 2; -moz-column-gap: 20px; -webkit-column-count: 2; -webkit-column-gap: 20px; column-count: 2; column-gap: 20px; width: 300px;}
+#puzzle-words ul {list-style-type: none;}
+#puzzle-words li {padding: 6px 0; font: 1em sans-serif;}
+
+/* indicates that the word has been found */
+#puzzle-words .wordFound {text-decoration: line-through; color: gray;}
+
+/*** Styles for the button*/
+#solve {margin: 0 30px;}
+
+/*layout 190819 í™ìœ ì§„*/
+.worldSearch > .inner {border-top:2px solid;}
+.worldSearch .pageTit {max-width:1080px; margin:0 auto;}
+.worldSearch .puzzleWrap {/*min-height:390px; */position:relative; border-bottom:1px solid #dce3ef; padding: 28px 30px;}
+/*.worldSearch #puzzle-container {position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);}*/
+.worldSearch #solveBTN {border-color: #005377; background-color: #005377; color: white;}
+.worldSearch .puzzle-words {width: calc(100% - 600px); padding: 20px 30px; box-sizing: border-box;}
+.worldSearch .puzzle-words li {float: left; width: 100%; line-height: 30px; margin-bottom:20px}
+.worldSearch .puzzle-words li span {display:inline-block; width:110px; font-size: 1.5em;}
+.worldSearch.mini .puzzle-words li span {display:inline-block; width:60px; font-size: 1.5em;}
+.worldSearch .puzzle-words li input {border: 1px solid #dce3ef; width: 170px; margin-left: 20px; padding-left:10px;}
+.worldSearch .wordFound {text-decoration: line-through;color: gray;}
+#puzzle-container .solved {background-color:#f05d5e;}
+#puzzle-container .found, #puzzle-container .selected {background-color: #2bb7ec;}
+.PuzzleBox {width:74%; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);}
+
+
+
+.ml20 {margin-left:20px !important;}
